@@ -21,4 +21,103 @@ body {
 .logo {
   font-weight: 700;
   font-size: 0.95rem;
+  
+}
+.header i {
+  font-size: 1rem;
+}
+
+.titulo {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.subtitulo {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.texto {
+  font-family: "Inter", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 400;
+}
+
+.hero {
+  padding: 2rem 1.25rem;
+}
+
+.hero .texto {
+  max-width: 560px;
+}
+
+.btn-crema {
+  background: var(--crema);
+  color: var(--oscuro);
+  border: 0;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 0.75rem;
+  padding: 0.4rem 1.2rem;
+}
+
+.btn-crema:hover {
+  background: #e6e1d4;
+  color: var(--oscuro);
+}
+
+.tarjeta {
+  height: 100%;
+}
+
+.lista {
+  text-align: left;
+  padding-left: 1.25rem;
+  margin-bottom: 0;
+}
+
+.impacto img {
+  width: 100%;
+}
+
+.grafico {
+  max-width: 260px;
+  margin: 0 auto;
+  display: block;
+}
+
+.footer .copy {
+  font-size: 0.75rem;
+}
+
+.enlaces a {
+  color: var(--crema);
+  text-decoration: none;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.enlaces a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .titulo {
+    font-size: 1.75rem;
+  }
+
+  .w-md-auto {
+    width: auto !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .titulo {
+    font-size: 2rem;
+  }
+
+  .hero {
+    padding: 2.5rem 1.25rem;
+  }
 }
