@@ -1,0 +1,24 @@
+:root {
+  --oscuro: #1a2126;
+  --medio: #3a4750;
+  --crema: #f5f2eb;
+}
+
+body {
+  background: var(--oscuro);
+  color:  var(--crema);
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+.logo,
+.titulo,
+.subtitulo,
+.btn,
+.enlaces a {
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 0.95rem;
+}
